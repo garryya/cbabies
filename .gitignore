@@ -1,0 +1,13 @@
+.idea
+*.pyc
+*~
+~*
+*.log*
+build/*
+djdi.db.old
+.nfs*
+node/zjobUI/node_modules/
+node/zjobUI/index.html
+*.tmp
+*.swp
+*.swo
