@@ -11,7 +11,7 @@ CXX_DEBUG   := -g
 BUILD_CMD = $(GCC) $(CFLAGS) $(CXX_DEBUG) $(LDFLAGS) $(WORKDIR)/$(EXE).cpp -o $(WORKDIR)/$(EXE)
 
 $(EXE) : $(EXE).cpp
-	@echo ===> Building $(WORKDIR)/$(EXE) ...
+	@echo "===> Building $(WORKDIR)/$(EXE) ..."
 	$(BUILD_CMD)
 
 default: build
