@@ -1,5 +1,6 @@
 # EXE	:= words tsst stocks list
-EXE	:= rvrlist
+# EXE	:= rvrlist
+EXE	:= twostq
 WORKDIR	:= /home/garryya/rd/cbabies
 
 GCCVER	    = /grid/common/pkgs/gcc/v4.8.3
